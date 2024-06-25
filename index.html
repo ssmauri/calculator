@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+    </head>
+    <body>
+        <div class="calculadora">
+            <div class="marco">
+
+
+                    <div class="display">
+                        <div id="input" class="input"></div>
+                        <div id="result" class="result"></div>
+                    </div>
+       
+                    <!-- buttons for numbers and operatos -->
+                    <div class="container-buttons">
+                        <button id="clear" class="calButt especial" value="A/C" data-key="Escape">A/C</button>
+                        <button id="backspace" class="calButt especial" value="BS" data-key="Backspace">◄</button>
+                        <button id="toggleSign" class="calButt especial" value="+/-" data-key="192">+/-</button>
+                        <button id="percent" class="calButt especial" value="%" data-key="80">%</button>
+
+                        <button id="numbers" class="calButt" value="7" data-key="7">7</button>
+                        <button id="numbers" class="calButt" value="8" data-key="8">8</button>
+                        <button id="numbers" class="calButt" value="9" data-key="9">9</button>
+                        <button id="divide" class="calButt operator" value="/" data-key="/">/</button>
+                        <button id="numbers" class="calButt" value="4" data-key="4">4</button>
+                        <button id="numbers" class="calButt" value="5" data-key="5">5</button>
+                        <button id="numbers" class="calButt" value="6" data-key="6">6</button>
+                        <button id="multiply" class="calButt operator" value="*" data-key="*">*</button>
+                        <button id="numbers" class="calButt" value="1" data-key="1">1</button>
+                        <button id="numbers" class="calButt" value="2" data-key="2">2</button>
+                        <button id="numbers" class="calButt" value="3" data-key="3">3</button>
+                        <button id="subtract" class="calButt operator" value="-" data-key="-">-</button>
+                        <button id="numbers" class="calButt" value="0" data-key="0">0</button>
+                        <button id="." class="calButt operator especial" value="." data-key=".">.</button>
+                        <button id="calc" class="calButt operator especial" value="=" data-key="Enter">=</button>
+                        <button id="add" class="calButt operator" value="+" data-key="+">+</button>
+                    </div>
+                    <!-- ends buttons for numbers and operatos -->
+
+                </div>
+                <!-- Marco calculadora  -->
+
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

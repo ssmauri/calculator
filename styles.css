@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calculadora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.marco {
+    width: 440px;
+    /* margin: auto; */
+    border: solid;
+    padding: 17px;
+    border-radius: 15px;
+    background-color: #575e8d;
+}
+.display {
+    width: 400px;
+    margin: auto;
+    min-height: 80px;
+    border: solid 2px black;
+    text-align: end;
+    font-size: 2rem;
+    background-color: #dfe1ee;
+    border-radius: 15px;
+    padding-right: 12px;
+    align-content: end;
+}
+.calButt.especial {
+    font-size: 2rem;
+    background-color: #6c7795;
+    color: #b7feff;
+}
+.calButt.especial:hover {
+    background-color: #666d7f;
+    color: #eaffff;
+}
+
+.container-buttons {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    margin: auto;
+    height: 500px;
+}
+.calButt.operator {
+    background-color: rgb(255, 179, 97, 0.9);
+    color: rgb(8 7 8 / 0.8);
+}
+.calButt:hover {
+    background-color: rgb(255 199 133);
+    color: rgb(119 116 119);
+}
+.calButt {
+    width: 21%;
+    height: 18%;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: rgb(255, 179, 97, 1);
+    font-size: 3rem;
+    border: none;
+}
+.calButt:hover {
+    background-color: rgb(67 67 67);
+    color: rgb(255 211 127);
+}
